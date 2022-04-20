@@ -1,4 +1,4 @@
-package For_Range
+package dictionary
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ const (
 	deftere
 )
 
-func Demo3() {
+func TheWords() {
 
 	var Sozluk = map[string]string{
 		"book":   "kitap",
