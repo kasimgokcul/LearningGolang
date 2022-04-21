@@ -1,9 +1,10 @@
 package main
 
 import (
-	"Dictionary/dictionary"
+	numberguessing "Dictionary/NumberGuessing"
 )
 
 func main() {
-	dictionary.TheWords()
+	//dictionary.TheWords()
+	numberguessing.Guessing()
 }
