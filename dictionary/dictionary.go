@@ -4,31 +4,26 @@ import (
 	"fmt"
 )
 
-const (
-	book string = "kitap"
-	kagit
-	deftere
-)
-
 func TheWords() {
 
 	var Sozluk = map[string]string{
-		"book":   "kitap",
-		"table":  "masa",
-		"pencil": "kalem",
-		"school": "okul",
+		"book":     "kitap",
+		"table":    "masa",
+		"pencil":   "kalem",
+		"school":   "okul",
+		"able":     "yapabilen",
+		"also":     "ayrica",
+		"done":     "tamamlamak",
+		"computer": "bilgisayar",
+		"foot":     "ayak",
+		"finger":   "parmak",
+		"noise":    "burun",
 	}
 	var input string
 	var f bool
 	var w string
 	fmt.Println("Cevirmek istediginiz kelimeyi girin")
 	fmt.Scanln(&input)
-
-	// if _, ok := Sozluk[input]; ok {
-	// 	fmt.Println(Sozluk[input])
-	// } else {
-	// 	fmt.Println("Karsilik bulunamadi")
-	// }
 
 	for k, v := range Sozluk {
 		if input == k {
